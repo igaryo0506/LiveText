@@ -13,6 +13,8 @@
 		DD48178A2871CA3D00B945F6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD4817882871CA3D00B945F6 /* Main.storyboard */; };
 		DD48178C2871CA3E00B945F6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DD48178B2871CA3E00B945F6 /* Assets.xcassets */; };
 		DD48178F2871CA3E00B945F6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD48178D2871CA3E00B945F6 /* LaunchScreen.storyboard */; };
+		DDA73D752871FCBD002C4E49 /* LiveTextController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDA73D742871FCBD002C4E49 /* LiveTextController.swift */; };
+		DDA73D772871FE20002C4E49 /* sample.PNG in Resources */ = {isa = PBXBuildFile; fileRef = DDA73D762871FE20002C4E49 /* sample.PNG */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		DD48178B2871CA3E00B945F6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DD48178E2871CA3E00B945F6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DD4817902871CA3E00B945F6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DDA73D742871FCBD002C4E49 /* LiveTextController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LiveTextController.swift; sourceTree = "<group>"; };
+		DDA73D762871FE20002C4E49 /* sample.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sample.PNG; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,7 +66,9 @@
 				DD4817882871CA3D00B945F6 /* Main.storyboard */,
 				DD48178B2871CA3E00B945F6 /* Assets.xcassets */,
 				DD48178D2871CA3E00B945F6 /* LaunchScreen.storyboard */,
+				DDA73D762871FE20002C4E49 /* sample.PNG */,
 				DD4817902871CA3E00B945F6 /* Info.plist */,
+				DDA73D742871FCBD002C4E49 /* LiveTextController.swift */,
 			);
 			path = LiveText;
 			sourceTree = "<group>";
@@ -125,6 +131,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DDA73D772871FE20002C4E49 /* sample.PNG in Resources */,
 				DD48178F2871CA3E00B945F6 /* LaunchScreen.storyboard in Resources */,
 				DD48178C2871CA3E00B945F6 /* Assets.xcassets in Resources */,
 				DD48178A2871CA3D00B945F6 /* Main.storyboard in Resources */,
@@ -138,6 +145,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DDA73D752871FCBD002C4E49 /* LiveTextController.swift in Sources */,
 				DD4817872871CA3D00B945F6 /* ViewController.swift in Sources */,
 				DD4817832871CA3D00B945F6 /* AppDelegate.swift in Sources */,
 				DD4817852871CA3D00B945F6 /* SceneDelegate.swift in Sources */,
@@ -290,6 +298,7 @@
 				DEVELOPMENT_TEAM = 377B7BZZ6Z;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = LiveText/Info.plist;
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "カメラロールの使用";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -318,6 +327,7 @@
 				DEVELOPMENT_TEAM = 377B7BZZ6Z;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = LiveText/Info.plist;
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "カメラロールの使用";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
